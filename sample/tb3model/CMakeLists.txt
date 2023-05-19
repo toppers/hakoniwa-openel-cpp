@@ -43,6 +43,7 @@ message(STATUS "hako lib path: " ${HAKO_SOURCE_DIR}/cmake-build/core/src)
 target_link_directories(hako-openel
   PRIVATE
   ${HAKO_SOURCE_DIR}/cmake-build/core/src
+  /usr/local/lib/hakoniwa
 )
 
 target_link_libraries(hako-openel 
