@@ -1,0 +1,12 @@
+[submodule "openel-cpp"]
+	path = openel-cpp
+	url = https://github.com/openel/openel-cpp.git
+[submodule "hakoniwa-unity-tb3model"]
+	path = hakoniwa-unity-tb3model
+[submodule "hakoniwa-core-cpp-client"]
+	path = hakoniwa-core-cpp-client
+[submodule "hakoniwa-conductor"]
+	path = hakoniwa-conductor
+	url = https://github.com/toppers/hakoniwa-conductor.git
+[submodule "hakoniwa-ros2pdu"]
+	path = hakoniwa-ros2pdu
