@@ -176,3 +176,11 @@ OpenEL Sensor init OK
 
 シミュレーション終了する場合は、Unityの再生ボタンを止めて、起動していた WSL2のターミナルを　`CTRL+C` で停止してください。
 
+
+# デモ
+
+https://github.com/toppers/hakoniwa-openel-cpp/assets/164193/d45dc53a-5f25-428a-9ea6-eacc727f5da3
+
+
+
+
