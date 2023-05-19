@@ -1,10 +1,13 @@
 #!/bin/bash
-#export DELTA_MSEC=20
-#export MAX_DELAY_MSEC=100
-#export GRPC_PORT=50051
-#export UDP_SRV_PORT=54001
-#export UDP_SND_PORT=54002
-#export CORE_IPADDR=172.30.224.33
+
+if [ ${RUN_MODE} == "build" ]
+then
+    cd sample/tb3model
+    bash build.bash clean
+    bash build.bash all
+    exit 0
+fi
+
 echo "INFO: ACTIVATING MOSQUITTO"
 mosquitto -c ./config/mosquitto.conf &
 MQTT_PORT=1883
@@ -15,8 +18,9 @@ hako-master ${DELTA_MSEC} ${MAX_DELAY_MSEC} ${CORE_IPADDR}:${GRPC_PORT} ${UDP_SR
 
 sleep 1
 
-#python3 ${PYTHON_PROG} &
-#LAST_PID=$!
+cd sample/tb3model
+./cmake-build/hako-openel &
+LAST_PID=$!
 sleep 1
 
 while [ 1 ]

@@ -60,6 +60,7 @@ WORKDIR /root/hakoniwa-core-cpp-client
 RUN apt-get install -y python3-pip  libffi-dev python3-dev
 RUN pip3 install numpy
 RUN bash build.bash
+RUN cp cmake-build/core/src/libhako.a /usr/local/lib/hakoniwa/
 RUN cp cmake-build/src/hakoc/libshakoc.* /usr/local/lib/hakoniwa/
 RUN cp cmake-build/src/hakoc/libshakoc.so /usr/local/lib/hakoniwa/hakoc.so
 RUN cp -rp py /usr/local/lib/hakoniwa/

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export HOST_WORKDIR=`pwd`/runtime/workspace
-export DOCKER_DIR=/root/workspace
+export DOCKER_WORKDIR=/root/workspace/
 
 export DELTA_MSEC=20
 export MAX_DELAY_MSEC=100

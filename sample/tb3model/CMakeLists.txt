@@ -47,6 +47,7 @@ target_link_directories(hako-openel
 
 target_link_libraries(hako-openel 
   hako
+  rt
   pthread
 )
 

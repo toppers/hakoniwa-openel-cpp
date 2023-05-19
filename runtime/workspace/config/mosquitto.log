@@ -1,0 +1,60 @@
+1683535998: mosquitto version 1.6.9 starting
+1683535998: Config loaded from ./config/mosquitto.conf.
+1683535998: Opening ipv4 listen socket on port 1883.
+1683535998: Opening ipv6 listen socket on port 1883.
+1683536000: New connection from 172.26.207.137 on port 1883.
+1683536000: New client connected from 172.26.207.137 as hako-mqtt_publisher (p2, c1, k60).
+1683536005: New connection from 172.26.192.1 on port 1883.
+1683536005: New client connected from 172.26.192.1 as hako-mqtt_unity_sender (p2, c1, k15).
+1683536017: New connection from 172.26.207.137 on port 1883.
+1683536019: New client connected from 172.26.207.137 as hako-mqtt_subscriber (p2, c0, k30).
+1684469726: mosquitto version 1.6.9 starting
+1684469726: Config loaded from ./config/mosquitto.conf.
+1684469726: Opening ipv4 listen socket on port 1883.
+1684469726: Opening ipv6 listen socket on port 1883.
+1684469728: New connection from 172.26.207.137 on port 1883.
+1684469728: New client connected from 172.26.207.137 as hako-mqtt_publisher (p2, c1, k60).
+1684469731: Socket error on client hako-mqtt_publisher, disconnecting.
+1684470160: mosquitto version 1.6.9 starting
+1684470160: Config loaded from ./config/mosquitto.conf.
+1684470160: Opening ipv4 listen socket on port 1883.
+1684470160: Opening ipv6 listen socket on port 1883.
+1684470162: New connection from 172.26.207.137 on port 1883.
+1684470162: New client connected from 172.26.207.137 as hako-mqtt_publisher (p2, c1, k60).
+1684470193: Socket error on client hako-mqtt_publisher, disconnecting.
+1684470250: mosquitto version 1.6.9 starting
+1684470250: Config loaded from ./config/mosquitto.conf.
+1684470250: Opening ipv4 listen socket on port 1883.
+1684470250: Opening ipv6 listen socket on port 1883.
+1684470252: New connection from 172.26.207.137 on port 1883.
+1684470449: mosquitto version 1.6.9 starting
+1684470449: Config loaded from ./config/mosquitto.conf.
+1684470449: Opening ipv4 listen socket on port 1883.
+1684470449: Opening ipv6 listen socket on port 1883.
+1684470451: New connection from 172.26.207.137 on port 1883.
+1684471152: mosquitto version 1.6.9 starting
+1684471152: Config loaded from ./config/mosquitto.conf.
+1684471152: Opening ipv4 listen socket on port 1883.
+1684471152: Opening ipv6 listen socket on port 1883.
+1684471154: New connection from 172.26.207.137 on port 1883.
+1684471154: New client connected from 172.26.207.137 as hako-mqtt_publisher (p2, c1, k60).
+1684471396: Reloading config.
+1684472444: mosquitto version 1.6.9 starting
+1684472444: Config loaded from ./config/mosquitto.conf.
+1684472444: Opening ipv4 listen socket on port 1883.
+1684472444: Opening ipv6 listen socket on port 1883.
+1684472446: New connection from 172.26.207.137 on port 1883.
+1684472446: New client connected from 172.26.207.137 as hako-mqtt_publisher (p2, c1, k60).
+1684472498: New connection from 172.26.192.1 on port 1883.
+1684472498: New client connected from 172.26.192.1 as hako-mqtt_unity_sender (p2, c1, k15).
+1684472511: New connection from 172.26.207.137 on port 1883.
+1684472544: mosquitto version 1.6.9 starting
+1684472544: Config loaded from ./config/mosquitto.conf.
+1684472544: Opening ipv4 listen socket on port 1883.
+1684472544: Opening ipv6 listen socket on port 1883.
+1684472546: New connection from 172.26.207.137 on port 1883.
+1684472546: New client connected from 172.26.207.137 as hako-mqtt_publisher (p2, c1, k60).
+1684472552: New connection from 172.26.192.1 on port 1883.
+1684472552: New client connected from 172.26.192.1 as hako-mqtt_unity_sender (p2, c1, k15).
+1684472554: New connection from 172.26.207.137 on port 1883.
+1684472556: New client connected from 172.26.207.137 as hako-mqtt_subscriber (p2, c0, k30).
