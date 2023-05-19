@@ -32,6 +32,13 @@ cd hakoniwa-openel-cpp/
 
 ## docker イメージの取得
 
+箱庭では、WSL2にインストールされた docker を使いますので、事前にインストールされている必要があります。
+また、docker を利用する局面では、必ず、以下のように docker を起動してください。
+
+```
+sudo service docker start
+```
+
 ```
 bash runtime/docker/pull-image.bash 
 ```
