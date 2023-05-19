@@ -40,12 +40,61 @@ bash runtime/docker/pull-image.bash
 
 ```
 $ docker images
-REPOSITORY                              TAG       IMAGE ID       CREATED        SIZE
-toppersjp/hakoniwa-openel-runtime-tb3   v1.0.0    11e5b4f27de2   3 hours ago    3.83GB
+REPOSITORY                              TAG       IMAGE ID       CREATED         SIZE
+toppersjp/hakoniwa-openel-runtime-tb3   v1.0.0    6c8e32e9719e   4 minutes ago   3.83GB
 ```
+
+## OpenELサンプルコードのビルド
 
 次に、OpenELのサンプルコードをビルドします。
 
 ```
 bash runtime/docker/run.bash build
 ```
+
+成功すると、以下のように、`hako-openel`　という実行バイナリが出来上がります。
+
+```
+$ ls sample/tb3model/cmake-build/hako-openel 
+sample/tb3model/cmake-build/hako-openel
+```
+
+## Unity プロジェクトのインストール
+
+以下のように、TurtleBot3用のUnityプロジェクトへ移動します。
+
+```
+cd hakoniwa-unity-tb3model/
+```
+
+そして、必要なUnityモジュール類をインストールします。
+
+```
+ bash install.bash 
+```
+
+成功すると、`DONE`というメッセージが出ますので、この状態で Unity Hub で当該プロジェクトを開きましょう。
+
+対象フォルダ：`hakoniwa-unity-tb3model\plugin\plugin-srcs`
+
+成功するとこうなります。
+
+![image](https://github.com/toppers/hakoniwa-openel-cpp/assets/164193/2712f400-ffef-4294-a9a5-4ccbdc407740)
+
+なお、Unityエディタのバージョンによっては、起動中にエラーとなる場合があります。
+その場合、途中、ダイアログがポップアップされて警告されますが、気にせず起動しましょう。
+
+原因は、`Newtonsoft.Json` が不足しているためです。
+対応方法は、下記記事にある通り、Unityのパッケージマネージャから `Newtonsoft.Json`をインストールすることで解消できます。
+
+https://qiita.com/sakano/items/6fa16af5ceab2617fc0f
+
+Unityエディタ起動後、プロジェクトビューの　`Scenes/TB3/TB3Work` をダブルクリックしてください。
+
+![image](https://github.com/toppers/hakoniwa-openel-cpp/assets/164193/84b25820-83ce-4f87-b45d-aab57bc299dd)
+
+奥のほうに `TurtleBot3` が見えると思います。
+
+そのまま、`Window/Hakoniwa/Generate` をクリックして終了です。
+
+
